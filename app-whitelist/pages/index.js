@@ -152,7 +152,7 @@ export default function Home() {
       if (joinedWhitelist) {
         return (
           <div className={styles.description}>
-            Thanks for joining the Whitelist!
+             	&#128171;Thanks for joining the Whitelist!&#128171;
           </div>
         );
       } else if (loading) {
@@ -167,7 +167,7 @@ export default function Home() {
     } else {
       return (
         <button onClick={connectWallet} className={styles.button}>
-          Connect your wallet
+           	connect &#128171; wallet
         </button>
       );
     }
@@ -199,9 +199,9 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
+          <h1 className={styles.title}>Welcome to Starry Nights!</h1>
           <div className={styles.description}>
-            Its an NFT collection for developers in Crypto.
+            Its an NFT collection for astronomy &#128171; lovers.
           </div>
           <div className={styles.description}>
             {numberOfWhitelisted} have already joined the Whitelist
@@ -214,7 +214,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by Crypto Devs
+        Made with &#10084; by StarryNights
       </footer>
     </div>
   );
